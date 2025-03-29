@@ -1,16 +1,14 @@
-# Cast Center API Runner
-
-## Description
+# Description
 
 This project is a Go application that interacts with the Upwork API. It is designed to fetch and process data from Upwork, potentially for use in a larger "Cast Center" system.  This runner currently demonstrates fetching user information from the Upwork API.
 
-## Prerequisites
+# Prerequisites
 
 *   **Go:** You need to have Go installed on your system. You can download it from [https://go.dev/dl/](https://go.dev/dl/).
 *   **Upwork API Credentials:** You need to create an Upwork API application and obtain your `consumer_key` and `consumer_secret`. Follow the instructions in the Upwork API documentation to create an application and retrieve these credentials.
 *   **config.json:**  You need to have a `config.json` file in the `internal/api_clients/upwork/` directory (or the project root, depending on how you configure it) with your Upwork API credentials. An example `config.example.json` is provided.
 
-## Setup
+# Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -27,7 +25,7 @@ This project is a Go application that interacts with the Upwork API. It is desig
     *   Copy `internal/api_clients/upwork/config.example.json` to `internal/api_clients/upwork/config.json`.
     *   Edit `internal/api_clients/upwork/config.json` and replace the placeholder values with your actual `consumer_key` and `consumer_secret` from your Upwork API application.
 
-## Usage
+# Usage
 
 1.  **Run the `start.sh` script:**
     ```bash
@@ -37,11 +35,11 @@ This project is a Go application that interacts with the Upwork API. It is desig
     *   Build the Go application `cmd/api-runner/main.go` into an executable named `api-runner`.
     *   Run the `api-runner` executable.
 
-## Development Log
+# TODO
+// ai!update this into todo list.
+*   **2025-03-29:** Initial setup of the project, including Go module initialization, basic structure, and Upwork API client integration.
+*   **2025-03-29:** Updating the ID to get API key on upwork https://www.upwork.com/developer/keys/apply
 
-*   **2023-11-20:** Initial setup of the project, including Go module initialization, basic structure, and Upwork API client integration.
-*   **2023-11-21:** Implemented user info retrieval from Upwork API and added README documentation.
-
-## License
+# License
 
 [MIT License](LICENSE) (or specify your desired license)
