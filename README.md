@@ -37,7 +37,10 @@ This project is a Go application that interacts with the Upwork API. It is desig
     *   Build the Go application `cmd/api-runner/main.go` into an executable named `api-runner`.
     *   Run the `api-runner` executable.
 
-// ai! add development log
+## Development Log
+
+*   **2023-11-20:** Initial setup of the project, including Go module initialization, basic structure, and Upwork API client integration.
+*   **2023-11-21:** Implemented user info retrieval from Upwork API and added README documentation.
 
 ## License
 
