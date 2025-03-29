@@ -37,22 +37,7 @@ This project is a Go application that interacts with the Upwork API. It is desig
     *   Build the Go application `cmd/api-runner/main.go` into an executable named `api-runner`.
     *   Run the `api-runner` executable.
 
-2.  **Authorization (First Run):**
-    The first time you run the application, it will likely need to obtain an `access_token` and `access_secret` from Upwork.  The application will print an authorization URL to the console.
-    *   Open the URL in your web browser.
-    *   Authorize the application to access your Upwork account.
-    *   You may be given a verifier code. Paste this code back into the console when prompted.
-    *   The application will then store the `access_token` and `access_secret` in your `config.json` file for future use.
-
-3.  **Subsequent Runs:**
-    On subsequent runs, the application will use the `access_token` and `access_secret` stored in `config.json` to authenticate with the Upwork API.
-
-## Configuration
-
-The application's configuration is managed through:
-
-*   **`config.json`:** Located in `internal/api_clients/upwork/config.json`. This file stores your Upwork API credentials (`consumer_key`, `consumer_secret`, `access_token`, `access_secret`).
-*   **Environment Variables:** The `start.sh` script sets the `API_ENDPOINT` environment variable. You can modify this in the `start.sh` script as needed.  Other configuration parameters could be moved to environment variables for production deployments.
+// ai! add development log
 
 ## License
 
