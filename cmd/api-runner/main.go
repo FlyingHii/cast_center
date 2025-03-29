@@ -1,15 +1,12 @@
 package main
 
 import (
+	"cast_center/internal/
 	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
-
 	"cast_center/internal/api_clients/upwork"
-
-	"cast_center/internal/config" // Import the config package
-)
 
 // Define a struct to represent the API response (adjust fields as needed)
 type ApiResponse struct {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/upwork/golang-sdk/api"
-	"github.com/upwork/golang-sdk/api/auth"
+	"github.com/upwork/golang-upwork/api"
+	"github.com/upwork/golang-upwork/api/routers/auth"
 )
 
 const CfgFile = "config.json" // update the path to your config file, or provide properties directl

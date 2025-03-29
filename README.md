@@ -37,8 +37,9 @@ This project is a Go application that interacts with the Upwork API. It is desig
 
 # To-Do
 
-*   **2025-03-29:** Initial setup of the project, including Go module initialization, basic structure, and Upwork API client integration.
-*   **2025-03-29:** Updating the ID to get API key on upwork https://www.upwork.com/developer/keys/apply
+*   [x] Initial setup of the project, including Go module initialization, basic structure, and Upwork API client integration.
+*   [ ] Updating the ID to get API key on upwork https://www.upwork.com/developer/keys/apply
+*   [ ] Get api of linkedin
 
 # License
 
